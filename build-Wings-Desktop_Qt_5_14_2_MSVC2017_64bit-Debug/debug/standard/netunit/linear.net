@@ -1,0 +1,23 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "linear",
+            "02_outline": "base_linear",
+            "03_specify": "base_linear",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 255,
+            "07_g": 85,
+            "08_b": 255,
+            "09_in": 1,
+            "10_out": 1,
+            "11_params": {
+                "01_inFeatures": 64,
+                "02_outFeatures": 64,
+                "03_bias": true,
+                "04_requiresGrad": 1
+            }
+        }
+    }
+}

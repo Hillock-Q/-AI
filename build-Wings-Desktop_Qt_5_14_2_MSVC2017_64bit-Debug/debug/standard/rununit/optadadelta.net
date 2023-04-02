@@ -1,0 +1,23 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "optadadelta",
+            "02_outline": "opt_adadelta",
+            "03_specify": "opt_adadelta",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 255,
+            "07_g": 170,
+            "08_b": 0,
+            "09_in": 0,
+            "10_out": 1,
+            "11_params": {
+				"01_lr": 1.0,
+                "02_rho": 0.9,
+                "03_weightDecay": 0.0,
+                "04_eps": 1.00E-06
+			}
+        }
+    }
+}

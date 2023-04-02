@@ -1,0 +1,19 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "showresult",
+            "02_outline": "showresult",
+            "03_specify": "showresult",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 85,
+            "07_g": 255,
+            "08_b": 0,
+            "09_in": 1,
+            "10_out": 1,
+            "11_params": {
+			}
+        }
+    }
+}

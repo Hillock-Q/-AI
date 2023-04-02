@@ -1,0 +1,20 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "datainputtest",
+            "02_outline": "data_inputtest",
+            "03_specify": "data_inputtest",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 85,
+            "07_g": 170,
+            "08_b": 127,
+            "09_in": 0,
+            "10_out": 1,
+            "11_params": {
+                "01_inputDim": 0
+			}
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "dataloader2d",
+            "02_outline": "dataloader2d",
+            "03_specify": "dataloader2d",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 85,
+            "07_g": 170,
+            "08_b": 0,
+            "09_in": 0,
+            "10_out": 10,
+            "11_params": {
+                "01_inputW": 256,
+                "02_inputH": 256,
+                "03_dataJsonPath": ".",
+				"04_dataLabelCodeJsonPath": ".",
+                "05_isRgb": true,
+				"06_batchSize": 16,
+				"07_numWorkers": 1,
+				"08_shuffle": true
+			}
+        }
+    }
+}

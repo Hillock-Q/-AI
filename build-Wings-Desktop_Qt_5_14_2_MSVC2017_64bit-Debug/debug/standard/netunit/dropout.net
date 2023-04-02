@@ -1,0 +1,21 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "dropout",
+            "02_outline": "base_dropout",
+            "03_specify": "base_dropout",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 85,
+            "07_g": 85,
+            "08_b": 255,
+            "09_in": 1,
+            "10_out": 1,
+            "11_params": {
+                "01_dim": 2,
+                "02_prob": 0.5
+            }
+        }
+    }
+}

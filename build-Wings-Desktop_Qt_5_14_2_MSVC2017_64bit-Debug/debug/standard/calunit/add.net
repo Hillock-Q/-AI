@@ -1,0 +1,19 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "add",
+            "02_outline": "base_add",
+            "03_specify": "base_add",
+            "04_std": true,
+            "05_shape": "circle",
+            "06_r": 0,
+            "07_g": 0,
+            "08_b": 127,
+            "09_in": 2,
+            "10_out": 1,
+            "11_params": {
+            }
+        }
+    }
+}

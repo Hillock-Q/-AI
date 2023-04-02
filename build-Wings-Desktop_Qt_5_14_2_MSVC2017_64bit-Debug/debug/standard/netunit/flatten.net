@@ -1,0 +1,21 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "flatten",
+            "02_outline": "base_flatten",
+            "03_specify": "base_flatten",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 170,
+            "07_g": 85,
+            "08_b": 127,
+            "09_in": 1,
+            "10_out": 1,
+            "11_params": {
+                "01_startDim": 1,
+                "02_endDim": -1
+            }
+        }
+    }
+}

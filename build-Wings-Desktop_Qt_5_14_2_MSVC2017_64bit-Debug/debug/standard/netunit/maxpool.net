@@ -1,0 +1,25 @@
+{
+    "01_version": "Version: 1.22.10.23",
+    "02_net": {
+        "01_express": {
+            "01_net": "maxpool",
+            "02_outline": "base_maxpool",
+            "03_specify": "base_maxpool",
+            "04_std": true,
+            "05_shape": "rect",
+            "06_r": 0,
+            "07_g": 170,
+            "08_b": 0,
+            "09_in": 1,
+            "10_out": 1,
+            "11_params": {
+                "01_dim": 2,
+				"02_kernelSize": [3, 3, 3],
+				"03_stride": [1, 1, 1],
+				"04_dilation": [1, 1, 1],
+				"05_padding": [0, 0, 0],
+				"06_requiresGrad": 1
+            }
+        }
+    }
+}
