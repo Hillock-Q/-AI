@@ -1,0 +1,838 @@
+{
+    "01_version": "Version: 1.23.01.01",
+    "02_net": {
+        "01_express": {
+            "01_net": "temp net",
+            "02_outline": "temp net",
+            "03_specify": "temp net",
+            "04_std": false,
+            "05_shape": "rect",
+            "06_r": 0,
+            "07_g": 0,
+            "08_b": 0,
+            "09_in": 0,
+            "10_out": 0,
+            "11_params": {
+                "01_cycle": 1,
+                "02_reqGrad": 1
+            }
+        },
+        "02_logic": {
+            "01_items": [
+                {
+                    "01_shape": "rect",
+                    "02_sn": 33,
+                    "03_x": -15,
+                    "04_y": 147,
+                    "05_w": 150,
+                    "06_h": 62,
+                    "07_net": "dataloader2d",
+                    "08_name": "dataloader2d_33",
+                    "09_r": 85,
+                    "10_g": 170,
+                    "11_b": 0,
+                    "12_in": 0,
+                    "13_out": 10,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 41,
+                            "02_owner": 33,
+                            "03_peer": 34,
+                            "04_arrow": 40,
+                            "05_channel": 1,
+                            "06_role": 0,
+                            "07_x": 54,
+                            "08_y": 54,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 44,
+                            "02_owner": 33,
+                            "03_peer": 35,
+                            "04_arrow": 43,
+                            "05_channel": 2,
+                            "06_role": 0,
+                            "07_x": 64,
+                            "08_y": 53,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 47,
+                            "02_owner": 33,
+                            "03_peer": 36,
+                            "04_arrow": 46,
+                            "05_channel": 3,
+                            "06_role": 0,
+                            "07_x": 81,
+                            "08_y": 51,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 92,
+                            "02_owner": 33,
+                            "03_peer": 87,
+                            "04_arrow": 91,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 116.36363636363626,
+                            "08_y": 26.363636363636346,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "dataloader2d",
+                        "02_sn": 33,
+                        "03_express": {
+                            "01_inputW": 254,
+                            "02_inputH": 255,
+                            "03_dataJsonPath": ".",
+                            "04_dataLabelCodeJsonPath": ".",
+                            "05_isRgb": false,
+                            "06_batchSize": 15,
+                            "07_numWorkers": 2,
+                            "08_shuffle": false
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 86,
+                    "03_x": 287,
+                    "04_y": 46,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "const",
+                    "08_name": "const_86",
+                    "09_r": 0,
+                    "10_g": 0,
+                    "11_b": 255,
+                    "12_in": 0,
+                    "13_out": 1,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 89,
+                            "02_owner": 86,
+                            "03_peer": 87,
+                            "04_arrow": 88,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 60.90909090909085,
+                            "08_y": 56.36363636363632,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "const",
+                        "02_sn": 86,
+                        "03_express": {
+                            "01_input": 0
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 34,
+                    "03_x": 106,
+                    "04_y": 337,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "loss",
+                    "08_name": "loss_34",
+                    "09_r": 170,
+                    "10_g": 170,
+                    "11_b": 255,
+                    "12_in": 2,
+                    "13_out": 1,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 42,
+                            "02_owner": 34,
+                            "03_peer": 33,
+                            "04_arrow": 40,
+                            "05_channel": 0,
+                            "06_role": 1,
+                            "07_x": 41,
+                            "08_y": 8,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 67,
+                            "02_owner": 34,
+                            "03_peer": 59,
+                            "04_arrow": 66,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 42.19999999999999,
+                            "08_y": 51.40000000000002,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 96,
+                            "02_owner": 34,
+                            "03_peer": 87,
+                            "04_arrow": 94,
+                            "05_channel": 1,
+                            "06_role": 1,
+                            "07_x": 52.72727272727268,
+                            "08_y": 6.363636363636358,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "loss",
+                        "02_sn": 34,
+                        "03_express": {
+                            "01_function": "CrossEntropyLoss",
+                            "02_p": 0.30000000000000016
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 35,
+                    "03_x": 292,
+                    "04_y": 335,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "loss",
+                    "08_name": "loss_35",
+                    "09_r": 170,
+                    "10_g": 170,
+                    "11_b": 255,
+                    "12_in": 2,
+                    "13_out": 1,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 45,
+                            "02_owner": 35,
+                            "03_peer": 33,
+                            "04_arrow": 43,
+                            "05_channel": 0,
+                            "06_role": 1,
+                            "07_x": 43,
+                            "08_y": 7,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 64,
+                            "02_owner": 35,
+                            "03_peer": 59,
+                            "04_arrow": 63,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 42.89999999999999,
+                            "08_y": 48.60000000000001,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 99,
+                            "02_owner": 35,
+                            "03_peer": 87,
+                            "04_arrow": 97,
+                            "05_channel": 1,
+                            "06_role": 1,
+                            "07_x": 57.272727272727224,
+                            "08_y": 8.181818181818175,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "loss",
+                        "02_sn": 35,
+                        "03_express": {
+                            "01_function": "NLLLoss",
+                            "02_p": 0
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 36,
+                    "03_x": 477,
+                    "04_y": 325,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "loss",
+                    "08_name": "loss_36",
+                    "09_r": 170,
+                    "10_g": 170,
+                    "11_b": 255,
+                    "12_in": 2,
+                    "13_out": 1,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 48,
+                            "02_owner": 36,
+                            "03_peer": 33,
+                            "04_arrow": 46,
+                            "05_channel": 0,
+                            "06_role": 1,
+                            "07_x": 59,
+                            "08_y": 5,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 70,
+                            "02_owner": 36,
+                            "03_peer": 59,
+                            "04_arrow": 69,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 47.400000000000006,
+                            "08_y": 56.00000000000003,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 102,
+                            "02_owner": 36,
+                            "03_peer": 87,
+                            "04_arrow": 100,
+                            "05_channel": 1,
+                            "06_role": 1,
+                            "07_x": 74.54545454545445,
+                            "08_y": 10.9090909090909,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "loss",
+                        "02_sn": 36,
+                        "03_express": {
+                            "01_function": "CrossEntropyLoss",
+                            "02_p": 0.6000000000000001
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 59,
+                    "03_x": 301,
+                    "04_y": 586,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "train2d",
+                    "08_name": "train2d_59",
+                    "09_r": 85,
+                    "10_g": 255,
+                    "11_b": 127,
+                    "12_in": 255,
+                    "13_out": 0,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 65,
+                            "02_owner": 59,
+                            "03_peer": 35,
+                            "04_arrow": 63,
+                            "05_channel": 0,
+                            "06_role": 1,
+                            "07_x": 47.900000000000006,
+                            "08_y": 13.800000000000068,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 68,
+                            "02_owner": 59,
+                            "03_peer": 34,
+                            "04_arrow": 66,
+                            "05_channel": 1,
+                            "06_role": 1,
+                            "07_x": 8.3,
+                            "08_y": 13.800000000000068,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 71,
+                            "02_owner": 59,
+                            "03_peer": 36,
+                            "04_arrow": 69,
+                            "05_channel": 2,
+                            "06_role": 1,
+                            "07_x": 78.7,
+                            "08_y": 10.500000000000114,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 77,
+                            "02_owner": 59,
+                            "03_peer": 60,
+                            "04_arrow": 75,
+                            "05_channel": 4,
+                            "06_role": 1,
+                            "07_x": 24.800000000000004,
+                            "08_y": 12.700000000000102,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "train2d",
+                        "02_sn": 59,
+                        "03_express": {
+                            "01_savePthPath": "./",
+                            "02_preweightsPath": "./",
+                            "03_logDir": "./",
+                            "04_epochNum": 70,
+                            "05_batchSize": 44,
+                            "06_isCuda": true,
+                            "07_classNums": [
+                                6,
+                                5,
+                                3,
+                                4,
+                                5
+                            ],
+                            "08_criteriaFunction": "Dice",
+                            "09_isTrainDataCriteria": false,
+                            "10_showLossFigure": false,
+                            "11_showCriteriaFigure": false,
+                            "12_epochSaveModel": 6
+                        }
+                    }
+                },
+                {
+                    "01_shape": "circle",
+                    "02_sn": 87,
+                    "03_x": 498,
+                    "04_y": 127,
+                    "05_w": 100,
+                    "06_h": 100,
+                    "07_net": "L3",
+                    "08_name": "L3_87",
+                    "09_r": 85,
+                    "10_g": 0,
+                    "11_b": 127,
+                    "12_in": 2,
+                    "13_out": 2,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 90,
+                            "02_owner": 87,
+                            "03_peer": 86,
+                            "04_arrow": 88,
+                            "05_channel": 0,
+                            "06_role": 1,
+                            "07_x": 13.636363636363626,
+                            "08_y": 29.999999999999943,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 93,
+                            "02_owner": 87,
+                            "03_peer": 33,
+                            "04_arrow": 91,
+                            "05_channel": 1,
+                            "06_role": 1,
+                            "07_x": 8.181818181818187,
+                            "08_y": 47.272727272727195,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 95,
+                            "02_owner": 87,
+                            "03_peer": 34,
+                            "04_arrow": 94,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 19.090909090909065,
+                            "08_y": 75.45454545454537,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 98,
+                            "02_owner": 87,
+                            "03_peer": 35,
+                            "04_arrow": 97,
+                            "05_channel": 1,
+                            "06_role": 0,
+                            "07_x": 30,
+                            "08_y": 78.18181818181809,
+                            "09_channels": [
+                            ]
+                        },
+                        {
+                            "01_sn": 101,
+                            "02_owner": 87,
+                            "03_peer": 36,
+                            "04_arrow": 100,
+                            "05_channel": 1,
+                            "06_role": 0,
+                            "07_x": 65.45454545454538,
+                            "08_y": 84.54545454545445,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "L3",
+                        "02_sn": 87,
+                        "03_express": {
+                            "01_cycle": 1,
+                            "02_reqGrad": 1
+                        },
+                        "04_logic": {
+                            "01_items": [
+                                {
+                                    "01_net": "active",
+                                    "02_sn": 1,
+                                    "03_express": {
+                                        "01_function": "SiLU"
+                                    }
+                                },
+                                {
+                                    "01_net": "avgpool",
+                                    "02_sn": 2,
+                                    "03_express": {
+                                        "01_dim": 2,
+                                        "02_kernelSize": [
+                                            3,
+                                            3,
+                                            3
+                                        ],
+                                        "03_stride": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "04_padding": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "05_requiresGrad": 1
+                                    }
+                                },
+                                {
+                                    "01_net": "L2",
+                                    "02_sn": 39,
+                                    "03_express": {
+                                        "01_cycle": 1,
+                                        "02_reqGrad": 1
+                                    },
+                                    "04_logic": {
+                                        "01_items": [
+                                            {
+                                                "01_net": "active",
+                                                "02_sn": 1,
+                                                "03_express": {
+                                                    "01_function": "SiLU"
+                                                }
+                                            },
+                                            {
+                                                "01_net": "avgpool",
+                                                "02_sn": 2,
+                                                "03_express": {
+                                                    "01_dim": 2,
+                                                    "02_kernelSize": [
+                                                        3,
+                                                        3,
+                                                        3
+                                                    ],
+                                                    "03_stride": [
+                                                        1,
+                                                        1,
+                                                        1
+                                                    ],
+                                                    "04_padding": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "05_requiresGrad": 1
+                                                }
+                                            },
+                                            {
+                                                "01_net": "L1",
+                                                "02_sn": 26,
+                                                "03_express": {
+                                                    "01_cycle": 1,
+                                                    "02_reqGrad": 1
+                                                },
+                                                "04_logic": {
+                                                    "01_items": [
+                                                        {
+                                                            "01_net": "active",
+                                                            "02_sn": 1,
+                                                            "03_express": {
+                                                                "01_function": "SiLU"
+                                                            }
+                                                        },
+                                                        {
+                                                            "01_net": "avgpool",
+                                                            "02_sn": 2,
+                                                            "03_express": {
+                                                                "01_dim": 2,
+                                                                "02_kernelSize": [
+                                                                    3,
+                                                                    3,
+                                                                    3
+                                                                ],
+                                                                "03_stride": [
+                                                                    1,
+                                                                    1,
+                                                                    1
+                                                                ],
+                                                                "04_padding": [
+                                                                    0,
+                                                                    0,
+                                                                    0
+                                                                ],
+                                                                "05_requiresGrad": 1
+                                                            }
+                                                        },
+                                                        {
+                                                            "01_net": "cat",
+                                                            "02_sn": 3,
+                                                            "03_express": {
+                                                                "01_catDim": 0
+                                                            }
+                                                        },
+                                                        {
+                                                            "01_net": "conv",
+                                                            "02_sn": 4,
+                                                            "03_express": {
+                                                                "01_dim": 2,
+                                                                "02_inChannels": 64,
+                                                                "03_outChannels": 64,
+                                                                "04_group": 1,
+                                                                "05_kernelSize": [
+                                                                    3,
+                                                                    3,
+                                                                    3
+                                                                ],
+                                                                "06_stride": [
+                                                                    1,
+                                                                    1,
+                                                                    1
+                                                                ],
+                                                                "07_dilation": [
+                                                                    1,
+                                                                    1,
+                                                                    1
+                                                                ],
+                                                                "08_padding": [
+                                                                    0,
+                                                                    0,
+                                                                    0
+                                                                ],
+                                                                "09_paddingMode": "zeros",
+                                                                "10_requiresGrad": 1
+                                                            }
+                                                        },
+                                                        {
+                                                            "01_net": "detectlayer2d",
+                                                            "02_sn": 5,
+                                                            "03_express": {
+                                                                "01_numberClass": 2,
+                                                                "02_anchorSize": [
+                                                                    [
+                                                                        210,
+                                                                        210
+                                                                    ],
+                                                                    [
+                                                                        300,
+                                                                        400
+                                                                    ],
+                                                                    [
+                                                                        300,
+                                                                        400
+                                                                    ]
+                                                                ],
+                                                                "03_imageSize": 416
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "01_net": "conv",
+                                                "02_sn": 4,
+                                                "03_express": {
+                                                    "01_dim": 2,
+                                                    "02_inChannels": 64,
+                                                    "03_outChannels": 64,
+                                                    "04_group": 1,
+                                                    "05_kernelSize": [
+                                                        3,
+                                                        3,
+                                                        3
+                                                    ],
+                                                    "06_stride": [
+                                                        1,
+                                                        1,
+                                                        1
+                                                    ],
+                                                    "07_dilation": [
+                                                        1,
+                                                        1,
+                                                        1
+                                                    ],
+                                                    "08_padding": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "09_paddingMode": "zeros",
+                                                    "10_requiresGrad": 1
+                                                }
+                                            },
+                                            {
+                                                "01_net": "detectlayer2d",
+                                                "02_sn": 5,
+                                                "03_express": {
+                                                    "01_numberClass": 2,
+                                                    "02_anchorSize": [
+                                                        [
+                                                            210,
+                                                            210
+                                                        ],
+                                                        [
+                                                            300,
+                                                            400
+                                                        ],
+                                                        [
+                                                            300,
+                                                            400
+                                                        ]
+                                                    ],
+                                                    "03_imageSize": 416
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "01_net": "conv",
+                                    "02_sn": 4,
+                                    "03_express": {
+                                        "01_dim": 2,
+                                        "02_inChannels": 64,
+                                        "03_outChannels": 64,
+                                        "04_group": 1,
+                                        "05_kernelSize": [
+                                            3,
+                                            3,
+                                            3
+                                        ],
+                                        "06_stride": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "07_dilation": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "08_padding": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "09_paddingMode": "zeros",
+                                        "10_requiresGrad": 1
+                                    }
+                                },
+                                {
+                                    "01_net": "detectlayer2d",
+                                    "02_sn": 5,
+                                    "03_express": {
+                                        "01_numberClass": 2,
+                                        "02_anchorSize": [
+                                            [
+                                                210,
+                                                210
+                                            ],
+                                            [
+                                                300,
+                                                400
+                                            ],
+                                            [
+                                                300,
+                                                400
+                                            ]
+                                        ],
+                                        "03_imageSize": 416
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "01_shape": "rect",
+                    "02_sn": 60,
+                    "03_x": 224,
+                    "04_y": 431,
+                    "05_w": 100,
+                    "06_h": 62,
+                    "07_net": "optadam",
+                    "08_name": "optadam_60",
+                    "09_r": 255,
+                    "10_g": 170,
+                    "11_b": 255,
+                    "12_in": 0,
+                    "13_out": 1,
+                    "14_asInput": false,
+                    "15_asOutput": false,
+                    "16_points": [
+                        {
+                            "01_sn": 76,
+                            "02_owner": 60,
+                            "03_peer": 59,
+                            "04_arrow": 75,
+                            "05_channel": 0,
+                            "06_role": 0,
+                            "07_x": 56.200000000000045,
+                            "08_y": 54.799999999999955,
+                            "09_channels": [
+                            ]
+                        }
+                    ],
+                    "17_params": {
+                        "01_net": "optadam",
+                        "02_sn": 60,
+                        "03_express": {
+                            "01_lr": 0.01,
+                            "02_eps": 1e-06,
+                            "03_weightDecay": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
